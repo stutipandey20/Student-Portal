@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="http://localhost:33683/WebSite1/HOME.aspx" title="HOME"  description="">
+        <siteMapNode url="http://localhost:33683/WebSite1/ABOUT_US.aspx" title="ABOUT US"  description="" />
+        <siteMapNode url="http://localhost:33683/WebSite1/CONTACT_US.aspx" title="CONTACT US"  description="" />
+   
+
+    <siteMapNode url="http://localhost:33683/WebSite1/DEPART.aspx" title="DEPARTMENT"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/COMPUTER_SCIENCE.aspx" title="COMPUTER SCIENCE"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/CHEMICAL_ENGG.aspx" title="CHEMICAL ENGINEERING"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/CHEMISTRY.aspx" title="CHEMISTRY"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/BIOSCIENCE.aspx" title="BIOSCIENCE AND BIOTECHNOLOGY"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/ECONOMICS.aspx" title="ECONOMICS"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/ELECTRONICS.aspx" title="ELECTRONICS"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/SOCIOLOGY.aspx" title="SOCIOLOGY"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/GEOLOGY.aspx" title="GEOLOGY"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/HISTORY.aspx" title="HISTORY AND INDIAN CULTURE"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/MATH.aspx" title="MATHEMATICS AND STATITICS"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/PHARMACY.aspx" title="PHARMACY"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/PHYSICS.aspx" title="PHYSICS"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/SPORTS.aspx" title="PHYSICAL EDUCATION"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/TEXTILE.aspx" title="TEXTILE DESIGNING"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/VISUALARTS.aspx" title="VISUAL ARTS"  description="" />
+      <siteMapNode url="http://localhost:33683/WebSite1/MUSIC.aspx" title="MUSIC AND DANCE"  description="" />
+    </siteMapNode>
+ </siteMap>

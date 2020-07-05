@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture10.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture11.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture12.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture5.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture6.png</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture7.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture8.png</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:55566/WebSite1/pics/Picture9.png</ImageUrl>
+  </Ad>
+</Advertisements>

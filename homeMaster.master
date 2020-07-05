@@ -1,0 +1,337 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="homeMaster.master.cs" Inherits="homeMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet7.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style3
+        {
+        }
+        .style4
+        {
+            background-color: #660033;
+        }
+        .style5
+        {
+            width: 175px;
+            background-color: #FFFFFF;
+        }
+        .style7
+        {
+            width: 500px;
+            background-color: #660033;
+        }
+        .style8
+        {
+            width: 150px;
+        }
+        .style9
+        {
+            width: 175px;
+            background-color: #660033;
+        }
+        .style10
+        {
+            width: 175px;
+        }
+        .style11
+        {
+            font-family: "Avengeance Heroic Avenger";
+            font-size: xx-large;
+            width: 150px;
+            background-color: #660033;
+        }
+        .style12
+        {
+            width: 264px;
+            background-color: #660033;
+        }
+        .style13
+        {
+            width: 264px;
+        }
+        body
+        {
+             background-color: #660033;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table class="style1">
+        <tr>
+            <td class="style3" colspan="3">
+                <asp:Panel ID="Panel1" runat="server" Height="259px" 
+                    style="font-weight: 700; background-color: #660033">
+                    <br />
+                    <asp:Image ID="Image2" runat="server" Height="189px" 
+                        ImageUrl="~/images/Picture3.png" Width="296px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label2" runat="server" 
+                        style="z-index: 1; left: 380px; top: 64px; position: absolute; font-family: Algerian; font-size: xx-large; height: 99px;" 
+                        Text="BANASTHALI VIDYAPITH" CssClass="style7"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/Picture2.png" 
+                        
+                        style="z-index: 1; left: 1348px; top: 65px; position: absolute; margin-right: 0px; height: 132px; width: 145px;" />
+                    <br />
+                    <br />
+                    <asp:TextBox ID="TextBox1" runat="server" 
+                        
+                        
+                        style="z-index: 1; left: 1251px; top: 279px; position: absolute; width: 199px; height: 28px; margin-left: 0px; margin-top: 0px"></asp:TextBox>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </asp:Panel>
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                    Font-Size="0.8em" PathSeparator=" : " style="font-size: medium">
+                    <CurrentNodeStyle ForeColor="#333333" />
+                    <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                    <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                    <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                </asp:SiteMapPath>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" 
+                    style="z-index: 1; left: 1157px; top: 283px; position: absolute; font-size: x-large" 
+                    Text="Search"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:ImageButton ID="ImageButton1" runat="server" 
+                    ImageUrl="~/images/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png" 
+                    
+                    style="z-index: 1; left: 1465px; top: 292px; position: absolute; height: 23px; width: 30px" />
+                <br />
+                <br />
+                
+            </td>
+        </tr>
+        <tr>
+            <td class="style4" colspan="3">
+                <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" 
+                    DynamicHorizontalOffset="2" DynamicVerticalOffset="5" Font-Names="Verdana" 
+                    Font-Size="0.8em" ForeColor="#990000" Orientation="Horizontal" 
+                    StaticSubMenuIndent="10px" style="font-size: x-large">
+                    <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#FFFBD6" />
+                    <DynamicSelectedStyle BackColor="#FFCC66" />
+                    <Items>
+                        <asp:MenuItem Text="HOME" Value="HOME">
+                            <asp:MenuItem NavigateUrl="~/ABOUT_US.aspx" Text="ABOUT US" Value="ABOUT US">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/CONTACT_US.aspx" Text="CONTACT US" 
+                                Value="CONTACT US"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="DEPARTMENT" Value="DEPARTMENT">
+                            <asp:MenuItem NavigateUrl="~/COMPUTER_SCIENCE.aspx" Text="COMPUTER SCIENCE" 
+                                Value="COMPUTER SCIENCE"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/CHEMICAL_ENGG.aspx" Text="CHEMICAL ENGINEERING" 
+                                Value="CHEMICAL ENGINEERING"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/CHEMISTRY.aspx" Text="CHEMISTRY" Value="CHEMISTRY">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/BIOSCIENCE.aspx" 
+                                Text="BIO SCIENCE AND BIOTECHNOLOGY" Value="BIO SCIENCE AND BIOTECHNOLOGY">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ECONOMICS.aspx" Text="ECONOMICS" Value="ECONOMICS">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/SOCIOLOGY.aspx" Text="SOCIOLOGY" Value="SOCIOLOGY">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/GEOLOGY.aspx" Text="GEOLOGY" Value="GEOLOGY">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/HISTORY.aspx" Text="HISTORY AND INDIAN CULTURE" 
+                                Value="HISTORY AND INDIAN CULTURE"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/MATH.aspx" Text="MATHEMATICS AND STATISTICS" 
+                                Value="MATHEMATICS AND STATISTICS"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/PHARMACY.aspx" Text="PHARMACY" Value="PHARMACY">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/PHYSICS.aspx" Text="PHYSICS" Value="PHYSICS">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/SPORTS.aspx" Text="PHYSICAL EDUCATION" 
+                                Value="PHYSICAL EDUCATION"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/TEXTILE.aspx" Text="TEXTILE DESIGNING" 
+                                Value="TEXTILE DESIGNING"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/VISUALARTS.aspx" Text="VISUAL ARTS" 
+                                Value="VISUAL ARTS"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/MUSIC.aspx" Text="MUSIC AND DANCE" 
+                                Value="MUSIC AND DANCE"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="COURSES" Value="COURSES">
+                            <asp:MenuItem Text="ACADEMIC" Value="ACADEMIC">
+                                <asp:MenuItem Text="REGULAR COURSES" Value="REGULAR COURSES"></asp:MenuItem>
+                                <asp:MenuItem Text="CERTIFICATE/DIPLOMA COURSES" 
+                                    Value="CERTIFICATE/DIPLOMA COURSES"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="NON ACADEMIC" Value="NON ACADEMIC"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="CAMPUS ACTIVITIES" Value="CAMPUS ACTIVITIES">
+                            <asp:MenuItem Text="CLUBS" Value="CLUBS"></asp:MenuItem>
+                            <asp:MenuItem Text="EVENTS" Value="EVENTS"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="LIBRARY" Value="LIBRARY"></asp:MenuItem>
+                        <asp:MenuItem Text="EXAMINATION" Value="EXAMINATION">
+                            <asp:MenuItem NavigateUrl="~/school.aspx" Text="SCHOOL" Value="SCHOOL">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/ug.aspx" Text="UG" Value="UG"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/PG.aspx" Text="PG" Value="PG"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="ALUMNI CORNER" Value="ALUMNI CORNER"></asp:MenuItem>
+                        <asp:MenuItem Text="PHOTO GALLERY" Value="PHOTO GALLERY"></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#FFCC66" />
+                </asp:Menu>
+                <br />
+                
+            </td>
+        </tr>
+        <tr>
+            <td class="style11">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                &nbsp;<asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/adrotator.xml" 
+                    Height="30px" Width="30px"/>
+                    <asp:XmlDataSource ID="XmlDataSource1" runat="server" 
+                        DataFile="~/adrotator.xml"></asp:XmlDataSource>
+                    <asp:Timer ID="Timer1" runat="server" Interval="50000">
+                    </asp:Timer>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                
+                <br />
+                &nbsp;&nbsp;
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+            <td class="style5">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1143px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: inherit" align="center">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1144px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1142px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1145px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1140px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1142px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1142px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1147px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1150px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1151px">
+                        &nbsp;</p>
+                    <p style="height: 36px; width: 1151px">
+                        <br />
+                    </p>
+                </asp:ContentPlaceHolder>
+            </td>
+            <td class="style12">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style11">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+            <td class="style9">
+                &nbsp;</td>
+            <td class="style12">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style8">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+            <td class="style10">
+                &nbsp;</td>
+            <td class="style13">
+                &nbsp;</td>
+        </tr>
+    </table>
+    <div>
+    </div>
+    </form>
+</body>
+</html>

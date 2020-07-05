@@ -1,0 +1,265 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HopefullyFinal.master.cs" Inherits="HopefullyFinal" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="MASTER.css" rel="stylesheet" type="text/css" />
+    <!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" media="screen" />
+	<style type="text/css">a#vlb{display:none}</style>
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       
+        
+            <asp:Panel ID="Panel1" runat="server" Height="192px" CssClass="style1">
+                &nbsp;<br /> &nbsp;<asp:Image ID="Image1" runat="server" Height="170px" 
+                    ImageUrl="~/images/Picture3.png" Width="269px" />
+                &nbsp;&nbsp;
+                <asp:Label ID="Label3" runat="server" CssClass="style4" 
+                    Text="THE STUDENT PORTAL"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" CssClass="style2" 
+                    style="z-index: 1; left: 629px; top: 18px; position: absolute" 
+                    Text="BANASTHALI VIDYAPITH"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label2" runat="server" CssClass="style3" Text="welcome to"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label 
+                    ID="Label4" runat="server" 
+                    style="z-index: 1; left: 1539px; top: 246px; position: absolute; height: 33px; font-weight: 700" 
+                    Text="SEARCH" CssClass="style27"></asp:Label>
+                <asp:ImageButton ID="ImageButton1" runat="server" 
+                    ImageUrl="~/images/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png" 
+                    
+                    style="z-index: 1; left: 1834px; top: 240px; position: absolute; height: 28px; width: 37px" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/Picture2.png" 
+                    style="z-index: 1; left: 1728px; top: 42px; position: absolute" />
+                    </asp:Panel>
+                <asp:Panel ID="Panel8" runat="server" CssClass="style5" Height="64px" 
+                Width="1877px">
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" CssClass="style6" 
+                        DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                        ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                        <DynamicItemTemplate>
+                            <%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                        <Items>
+                            <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/homeN.aspx">
+                                <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/aboutN.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="CONTACT US" Value="CONTACT US" 
+                                    NavigateUrl="~/CONTACT_US.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="DEPARTMENTS" Value="DEPARTMENTS" 
+                                NavigateUrl="~/DEPART.aspx">
+                                <asp:MenuItem Text="COMPUTER SCIENCE" Value="COMPUTER SCIENCE" 
+                                    NavigateUrl="~/computerScienceN.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="CHEMICAL ENGINEERING" Value="CHEMICAL ENGINEERING" 
+                                    NavigateUrl="~/CHEMICAL_ENGG.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="CHEMISTRY" Value="CHEMISTRY" NavigateUrl="~/CHEMISTRY.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="BIO SCIENCE AND BIOTECHNOLOGY" 
+                                    Value="BIO SCIENCE AND BIOTECHNOLOGY" NavigateUrl="~/BIOSCIENCE.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ECONOMICS" Value="ECONOMICS" NavigateUrl="~/ECONOMICS.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="SOCIOLOGY" Value="SOCIOLOGY" NavigateUrl="~/SOCIOLOGY.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="GEOLOGY" Value="GEOLOGY" NavigateUrl="~/GEOLOGY.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="HISTORY AND INDIAN CULTURE" 
+                                    Value="HISTORY AND INDIAN CULTURE" NavigateUrl="~/HISTORY.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="MATHEMATICS AND STATISTICS" 
+                                    Value="MATHEMATICS AND STATISTICS" NavigateUrl="~/MATH.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="PHARMACY" Value="PHARMACY" NavigateUrl="~/PHARMACY.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="PHYSICAL EDUCATION" Value="PHYSICAL EDUCATION" 
+                                    NavigateUrl="~/SPORTS.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="TEXTILE DESIGNING" Value="TEXTILE DESIGNING" 
+                                    NavigateUrl="~/TEXTILE.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="VISUAL ARTS" Value="VISUAL ARTS" 
+                                    NavigateUrl="~/VISUALARTS.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="MUSIC &amp; DANCE" Value="MUSIC &amp; DANCE" 
+                                    NavigateUrl="~/MUSIC.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="COURSES" Value="COURSES" NavigateUrl="~/COURSES.aspx">
+                                <asp:MenuItem Text="ACADEMIC" Value="ACADEMIC">
+                                    <asp:MenuItem Text="REGULAR COURSES" Value="REGULAR COURSES"></asp:MenuItem>
+                                    <asp:MenuItem Text="CERTIFICATE/DIPLOMA COURSES" 
+                                        Value="CERTIFICATE/DIPLOMA COURSES"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="NON-ACADEMIC" Value="NON-ACADEMIC"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="CAMPUS ACTIVITIES" Value="CAMPUS ACTIVITIES">
+                                <asp:MenuItem Text="CLUBS" Value="CLUBS"></asp:MenuItem>
+                                <asp:MenuItem Text="EVENTS" Value="EVENTS"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="LIBRARY" Value="LIBRARY" NavigateUrl="~/library.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="EXAMINATION" Value="EXAMINATION" NavigateUrl="~/Exam.aspx">
+                                <asp:MenuItem Text="SCHOOL" Value="SCHOOL" NavigateUrl="~/school.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="UG" Value="UG" NavigateUrl="~/ug.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="PG" Value="PG" NavigateUrl="~/PG.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="ALUMNI CORNER" Value="ALUMNI CORNER"></asp:MenuItem>
+                            <asp:MenuItem Text="PHOTO GALLERY" Value="PHOTO GALLERY" 
+                                NavigateUrl="~/photo.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="MEET THE MAKERS" Value="Meet the Makers"></asp:MenuItem>
+                        </Items>
+                        <StaticItemTemplate>
+                            <%# Eval("Text") %>
+                        </StaticItemTemplate>
+                    </asp:Menu>
+                    <asp:LinkButton ID="LinkButton3" runat="server" CssClass="style27" 
+                        style="z-index: 1; left: 1445px; top: 245px; position: absolute">PROFILE</asp:LinkButton>
+                    <br />
+                    <asp:TextBox ID="TextBox1" runat="server" 
+                        
+                        style="z-index: 1; left: 1630px; top: 245px; position: absolute; width: 197px"></asp:TextBox>
+            </asp:Panel>
+            <p>
+            </p>
+            <p>
+                &nbsp;</p>
+            <asp:Panel ID="Panel3" runat="server" CssClass="style7" 
+                
+                style="z-index: 1; left: 12px; top: 273px; position: absolute; height: 1071px; width: 381px">
+                <asp:Panel ID="Panel6" runat="server" 
+                    
+                    style="z-index: 1; left: 386px; top: 424px; position: absolute; height: 644px; width: 984px" 
+                    CssClass="style10">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </asp:Panel>
+                <br />
+                &nbsp;<asp:ScriptManager ID="ScriptManager1" runat="server">
+                </asp:ScriptManager>
+                <br />
+                <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+                <ContentTemplate>
+                &nbsp;<asp:Label ID="Label7" runat="server" CssClass="style23" 
+                    style="z-index: 1; left: 49px; top: 122px; position: absolute" 
+                    Text="Question of the Day"></asp:Label>
+                <asp:TextBox ID="TextBox2" runat="server" CssClass="style24" ReadOnly="True" 
+                    style="z-index: 1; left: 5px; top: 186px; position: absolute; height: 154px; width: 371px" 
+                    TextMode="MultiLine">What stays in the corner and travells the whole world?</asp:TextBox>
+                <asp:TextBox ID="TextBox3" runat="server" CssClass="style25" 
+                    style="z-index: 1; left: 66px; top: 374px; position: absolute" 
+                    ToolTip="*enter anonymous answer"></asp:TextBox>
+                    <asp:TextBoxWatermarkExtender ID="TextBox3_TextBoxWatermarkExtender" 
+                        runat="server" Enabled="True" TargetControlID="TextBox3" 
+                        WatermarkCssClass="style25" WatermarkText="your answer"></asp:TextBoxWatermarkExtender>
+                <asp:Button ID="Button1" runat="server" CssClass="style26" 
+                    style="z-index: 1; left: 90px; top: 487px; position: absolute; width: 163px" 
+                    Text="SUBMIT" onclick="Button1_Click" />
+                    <asp:TextBox ID="TextBox4" runat="server" CssClass="style25" 
+                        style="z-index: 1; left: 91px; top: 434px; position: absolute; height: 31px; width: 172px"></asp:TextBox>
+                    <asp:TextBoxWatermarkExtender ID="TextBox4_TextBoxWatermarkExtender" 
+                        runat="server" Enabled="True" TargetControlID="TextBox4" 
+                        WatermarkCssClass="tyle25" WatermarkText="your name"></asp:TextBoxWatermarkExtender>
+                    <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1">
+                    </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+                </ContentTemplate>
+                    <Triggers>
+                        <asp:AsyncPostBackTrigger ControlID="Button1" EventName="Click" />
+                    </Triggers>
+                </asp:UpdatePanel>
+            </asp:Panel>
+            <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            <asp:Panel ID="Panel4" runat="server" CssClass="style7" 
+                
+                style="z-index: 1; left: 1387px; top: 274px; position: absolute; height: 1068px; width: 545px; margin-bottom: 21px">
+                <asp:Label ID="Label5" runat="server" CssClass="style19" 
+                    Text="News around the Campus"></asp:Label>
+                <asp:Panel ID="Panel9" runat="server" 
+                    style="z-index: 1; left: 29px; top: 105px; position: absolute; height: 349px; width: 485px">
+                    &nbsp;
+                    <asp:TextBox ID="TextBox5" runat="server" CssClass="style28" ReadOnly="True" 
+                        TextMode="MultiLine" Width="476px">1. Nation wide celebration of Mahashivratri on 4th  March.
+
+2. IAF Fighter jet shoots down Pakistani millitary drone near India-Pak border.
+
+3. Spotify finally launched in India!
+
+4. &quot;One Nation One Card&quot; : PM launches mobility card that would across country.
+</asp:TextBox>
+                </asp:Panel>
+                <asp:Label ID="Label6" runat="server" CssClass="style21" 
+                    style="z-index: 1; left: 169px; top: 531px; position: absolute; height: 52px" 
+                    Text="Upcoming Events"></asp:Label>
+                <asp:Panel ID="Panel10" runat="server" CssClass="style22" 
+                    style="z-index: 1; left: 40px; top: 591px; position: absolute; height: 435px; width: 478px">
+
+                    <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Yellow" 
+                        style="z-index: 1; left: 22px; top: 18px; position: absolute">Mayukh 2019</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Yellow" 
+                        style="z-index: 1; left: 22px; top: 55px; position: absolute">Adhyay 2019</asp:LinkButton>
+                </asp:Panel>
+            </asp:Panel>
+            <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+            </p>
+            <asp:Panel ID="Panel5" runat="server" CssClass="style8" 
+                style="z-index: 1; left: 394px; top: 272px; position: absolute; height: 283px; width: 987px">
+                <asp:UpdatePanel ID="UpdatePanel2" runat="server" UpdateMode="Conditional">
+                    <ContentTemplate>
+                        <!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images">
+<a href="#"><img src="data1/images/picture5.jpg" alt="Picture5" title="Picture5" id="wows0"/></a>
+<a href="#"><img src="data1/images/picture6.jpg" alt="Picture6" title="Picture6" id="wows1"/></a>
+<a href="#"><img src="data1/images/picture7.jpg" alt="Picture7" title="Picture7" id="wows2"/></a>
+<a href="#"><img src="data1/images/picture8.jpg" alt="Picture8" title="Picture8" id="wows3"/></a>
+<a href="#"><img src="data1/images/picture9.jpg" alt="Picture9" title="Picture9" id="wows4"/></a>
+<a href="#"><img src="data1/images/picture10.jpg" alt="Picture10" title="Picture10" id="wows5"/></a>
+<a href="#"><img src="data1/images/picture11.jpg" alt="Picture11" title="Picture11" id="wows6"/></a>
+<a href="#"><img src="data1/images/picture12.jpg" alt="Picture12" title="Picture12" id="wows7"/></a>
+</div>
+<div class="ws_bullets"><div>
+<a href="#wows0" title="Picture5"><img src="data1/tooltips/picture5.jpg" alt="Picture5"/>1</a>
+<a href="#wows1" title="Picture6"><img src="data1/tooltips/picture6.jpg" alt="Picture6"/>2</a>
+<a href="#wows2" title="Picture7"><img src="data1/tooltips/picture7.jpg" alt="Picture7"/>3</a>
+<a href="#wows3" title="Picture8"><img src="data1/tooltips/picture8.jpg" alt="Picture8"/>4</a>
+<a href="#wows4" title="Picture9"><img src="data1/tooltips/picture9.jpg" alt="Picture9"/>5</a>
+<a href="#wows5" title="Picture10"><img src="data1/tooltips/picture10.jpg" alt="Picture10"/>6</a>
+<a href="#wows6" title="Picture11"><img src="data1/tooltips/picture11.jpg" alt="Picture11"/>7</a>
+<a href="#wows7" title="Picture12"><img src="data1/tooltips/picture12.jpg" alt="Picture12"/>8</a>
+</div></div>
+<a style="display:none" href="http://wowslider.com">Auto Slider jQuery by WOWSlider.com v1.7</a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+                    </ContentTemplate>
+                    
+                </asp:UpdatePanel>
+            </asp:Panel>
+            <asp:Panel ID="Panel7" runat="server" CssClass="style7" 
+                
+                
+                style="z-index: 1; left: 6px; top: 1352px; position: absolute; height: 224px; width: 1952px">
+            </asp:Panel>
+        
+       
+    </div>
+    </form>
+</body>
+</html>

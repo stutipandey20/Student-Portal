@@ -1,0 +1,259 @@
+﻿.style1
+{
+    background-color:Teal;
+}
+.style2
+{
+    background-color:inherit;
+    font-family:Algerian;
+    font-size:54px;
+    text-align:center;
+    color:White;
+}
+.style3
+{
+    background-color:inherit;
+    font-family:Vivaldi;
+    font-size:36px;
+    text-align:center;
+    color:White;
+    z-index: 1;
+    left: 864px;
+    top: 84px;
+    position: absolute;
+    font-weight:bold;
+}
+.style4
+{
+    background-color:inherit;
+    font-family:Black;
+    font-size:60px;
+    text-align:center;
+    color:White;
+    z-index: 1;
+    left: 550px;
+    top: 130px;
+    position: absolute;
+}
+.style5
+{
+    background-color:Silver;
+}
+.style6
+{
+    background-color:Inherit;
+    font-family:Forte;
+    font-size:32px;
+    display:inline-block;
+    
+}
+.style7
+{
+    background-color:Maroon;
+}
+.style8
+{
+    background-color:White;
+}
+.style9
+{
+    display:table;
+}
+.style10
+{
+    background-color:#FFFF99;
+}
+.style11
+{
+    background-color:inherit;
+    font-family:Footlight MT Light;
+    font-size:40px;
+    font-weight:bold;
+    z-index: 1;
+    left: 405px;
+    top: 56px;
+    position: absolute;
+    height: 44px;
+    color:Maroon;
+}
+.style12
+{
+    background-color:inherit;
+    font-family:Footlight MT Light;
+    font-size:36px;
+    margin-top: 0px;
+    z-index: 1;
+    left: 2px;
+    top: 68px;
+    position: absolute;
+    color:Olive;
+    height: 565px;
+}
+.style13
+{
+    background-color:inherit;
+    font-family:Footlight MT Light;
+    font-size:40px;
+    font-weight:bold;
+    z-index: 1;
+    left: 160px;
+    top: 9px;
+    position: absolute;
+    height: 44px;
+    color:Maroon;
+}
+.style14
+{
+    background-color:inherit;
+    font-family:Footlight MT Light;
+    font-size:40px;
+    font-weight:bold;
+    z-index: 1;
+    left: 396px;
+    top: 51px;
+    position: absolute;
+    height: 37px;
+    color:Maroon;
+}
+.style15
+{
+    background-color:inherit;
+    font-family:Footlight MT Light;
+    font-size:36px;
+    margin-top: 0px;
+    z-index: 1;
+    left: 3px;
+    top: 23px;
+    position: absolute;
+    color:Olive;
+}
+.style16
+{
+    background-color:inherit;
+    font-family:Footlight MT Light;
+    font-size:40px;
+    font-weight:bold;
+    z-index: 1;
+    left: 230px;
+    top: 135px;
+    position: absolute;
+    height: 37px;
+    color:Maroon;
+}
+.style17
+{
+    background-color:inherit;
+    font-family:Baskerville Old Face;
+    font-size:32px;
+    font-weight:bold;
+    z-index: 1;
+    left: 176px;
+    top: 281px;
+    position: absolute;
+    height: 37px;
+    text-align:center;
+    color:Olive;
+}
+.style18
+{
+    background-color:inherit;
+    font-family:Footlight MT Light;
+    font-size:54px;
+    margin-top: 0px;
+    z-index: 1;
+    left: 216px;
+    top: 190px;
+    position: absolute;
+    font-weight:bold;
+    color:Maroon;
+}
+.style19
+{
+    background-color:inherit;
+    color:White;
+    font-family:BOOTLE;
+    font-size:36px;
+    z-index: 1;
+    left: 91px;
+    top: 51px;
+    position: absolute;
+}   
+.style20
+{
+    background-color:transparent;
+    color:Yellow;
+    font-family:Lucida Console;
+    font-size:24px;
+}
+.style21
+{
+    background-color:inherit;
+    color:White;
+    font-family:BOOTLE;
+    font-size:36px;
+    z-index: 1;
+    left: 91px;
+    top: 51px;
+    position: absolute;
+} 
+.style22
+{
+    background-color:transparent;
+    color:Yellow;
+    font-family:Lucida Console;
+    font-size:24px;
+} 
+.style23
+{
+    background-color:inherit;
+    font-family:BOOTLE;
+    font-size:36px;
+    color:White;
+}
+.style24
+{
+    background-color:inherit;
+    font-family:Monotype Corsiva;
+    color:Silver;
+    font-size:28px;
+} 
+.style25
+{
+    background-color:inherit;
+    font-family:Monotype Corsiva;
+    color:Silver;
+    font-size:28px;
+} 
+.style26
+{
+    background-color:inherit;
+    font-family:Avengeance Heroic Avenger;
+    color:Black;
+    font-size:28px;
+} 
+.style27
+{
+    background-color:inherit;
+    border-left-color:Black;
+    border-left-width:thick;
+    border-right-color:Black;
+    border-right-width:thick;
+    color:Black;
+    font-family:Footlight MT Light;
+    font-size:22px;
+    font-weight:bold;
+}
+.style28
+{
+    background-color:inherit;
+    font-family: Lucida Console;
+    font-size: 24px;
+    color: yellow;
+    z-index: 1;
+    left: 1px;
+    top: 8px;
+    position: absolute;
+    height: 339px;
+    margin-top: 0px;
+}
+

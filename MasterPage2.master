@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 747px;
+        }
+        .style2
+        {
+            background-color: #990033;
+        }
+        .style3
+        {
+            text-align: left;
+            background-color: #990033;
+        }
+        .style4
+        {
+            width: 768px;
+            background-color: #990033;
+        }
+        .style5
+        {
+            width: 768px;
+            height: 440px;
+        }
+        .style6
+        {
+            width: 410px;
+            height: 440px;
+            background-color: #990033;
+        }
+        .style7
+        {
+            height: 440px;
+            background-color: #990033;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+&nbsp;
+                <table class="style1">
+                    <tr>
+                        <td class="style3" colspan="2">
+                            <asp:Image ID="Image1" runat="server" Height="185px" 
+                                ImageUrl="~/images/Picture3.png" Width="352px" />
+                        </td>
+                        <td class="style2">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="style6">
+                        </td>
+                        <td class="style5">
+                        </td>
+                        <td class="style7">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style3">
+                            &nbsp;</td>
+                        <td class="style4">
+                            &nbsp;</td>
+                        <td class="style2">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+                <br />
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
